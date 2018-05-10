@@ -14,6 +14,8 @@
 		59822B4320A3F04E00023A0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59822B4120A3F04E00023A0D /* LaunchScreen.storyboard */; };
 		59822B4E20A3F04F00023A0D /* A613____2__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59822B4D20A3F04F00023A0D /* A613____2__Tests.swift */; };
 		59822B5920A3F04F00023A0D /* A613____2__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59822B5820A3F04F00023A0D /* A613____2__UITests.swift */; };
+		59822B6920A3F79600023A0D /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59822B6820A3F79600023A0D /* PersonViewController.swift */; };
+		59EE1C8520A434BD00D205A5 /* personalityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EE1C8420A434BD00D205A5 /* personalityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		59822B5420A3F04F00023A0D /* A613資料傳遞2作業UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "A613資料傳遞2作業UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59822B5820A3F04F00023A0D /* A613____2__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A613____2__UITests.swift"; sourceTree = "<group>"; };
 		59822B5A20A3F04F00023A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59822B6820A3F79600023A0D /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		59EE1C8420A434BD00D205A5 /* personalityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				59822B3820A3F04C00023A0D /* AppDelegate.swift */,
 				59822B3A20A3F04C00023A0D /* ViewController.swift */,
+				59822B6820A3F79600023A0D /* PersonViewController.swift */,
 				59822B3C20A3F04C00023A0D /* Main.storyboard */,
+				59EE1C8420A434BD00D205A5 /* personalityViewController.swift */,
 				59822B3F20A3F04E00023A0D /* Assets.xcassets */,
 				59822B4120A3F04E00023A0D /* LaunchScreen.storyboard */,
 				59822B4420A3F04E00023A0D /* Info.plist */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				59822B3B20A3F04C00023A0D /* ViewController.swift in Sources */,
+				59822B6920A3F79600023A0D /* PersonViewController.swift in Sources */,
 				59822B3920A3F04C00023A0D /* AppDelegate.swift in Sources */,
+				59EE1C8520A434BD00D205A5 /* personalityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
