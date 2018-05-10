@@ -13,9 +13,6 @@ class personalityViewController: UIViewController {
     @IBOutlet weak var answer: UILabel!
     var person : String?
     
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
